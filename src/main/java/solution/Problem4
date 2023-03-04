@@ -1,0 +1,12 @@
+Consider the following array: 1, 0, 13, 50, 22, 14
+If this is the result after the first partition of quicksort,
+which of these elements could have been the pivot?
+
+Solution:
+13.
+Explanation was not required for this question, but here it is:
+Because after partitioning the array, elements on the left side of the pivot should be less than the pivot,
+and elements on the right side of the pivot should be greater or equal to the pivot.
+This is true only for element 13.
+On the left hand side, 1 and 0 are less than 13. On the right side of 13,
+50, 22, 14 are all larger than 13.
